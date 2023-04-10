@@ -15,7 +15,7 @@ const Categories = () => {
             <p className='text-dark-03 font-medium text-[16px] text-center my-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='flex flex-wrap lg:flex-nowrap justify-between m-6'>
                 {
-                    categories.map((category, index) => <Category category={category} key={index}></Category>)
+                     categories.map((category, index) => <Category category={category} key={index}></Category>)
                 }
             </div>
         </div>

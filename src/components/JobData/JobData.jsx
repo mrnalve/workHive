@@ -15,7 +15,7 @@ const JobData = ({jobData}) => {
                 <span className='text-text-color py-2 px-4 border border-text-color rounded-lg inline-block font-extrabold'>Full Time</span>
             </div>
             <div className='flex'>
-                <p className='text-dark-03 font-semibold text-[16px mr-5'><FontAwesomeIcon icon={faLocationDot} />{location}</p>
+                <p className='text-dark-03 font-semibold text-[16px mr-5'><FontAwesomeIcon className='mr-2' icon={faLocationDot} />{location}</p>
                 <p className='text-dark-03 font-semibold text-[16px]'><FontAwesomeIcon icon={faDollar} /> Salary:- {salary}</p>
             </div>
             <Link to={`/job/${id}`}> <button className='applied-button m-0 mt-6'>View Details</button></Link>
