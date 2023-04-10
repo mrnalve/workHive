@@ -10,6 +10,7 @@
     "build:prod": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",

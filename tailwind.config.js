@@ -12,6 +12,7 @@ export default {
         'dark-02': '#474747',
         'dark-03': '#757575',
         'dark-04': '#A3A3A3',
+        'dark-06': '#E8E8E8',
         'bg-color': 'rgba(0,0,0, 1)',
       },
       backgroundColor: {
