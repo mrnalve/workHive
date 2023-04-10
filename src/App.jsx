@@ -1,20 +1,20 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { createContext, useState } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLoaderData } from "react-router-dom";
+export const jobsDataContext = createContext([])
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const jobsData = useLoaderData()
   return (
-    <div className="App ">
+    <jobsDataContext.Provider value={jobsData}>
+      <div className="App ">
       <Header></Header>
       <>
       <Outlet></Outlet>
       </>
     </div>
+    </jobsDataContext.Provider>
   );
 }
 

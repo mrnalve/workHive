@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://example.com/company1-logo.png",
+    "job_title": "Software Engineer",
+    "company_name": "ABC Company",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are looking for a software engineer to join our team and help us build world-class software products.",
+    "job_responsibility": "Responsibilities include developing software, testing and debugging, and working with other team members to ensure the success of the project.",
+    "educational_requirements": "Bachelor's degree in computer science or related field",
+    "experiences": "3+ years of experience in software engineering",
+    "contact_information": {
+      "phone": "555-123-4567",
+      "email": "jobs@abccompany.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://example.com/company2-logo.png",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Corporation",
+    "remote_or_onsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We are seeking a talented and experienced marketing manager to help us grow our business.",
+    "job_responsibility": "Responsibilities include developing and executing marketing campaigns, analyzing data to measure success, and managing a team of marketing professionals.",
+    "educational_requirements": "Bachelor's degree in marketing, business, or related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact_information": {
+      "phone": "555-987-6543",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://example.com/company3-logo.png",
+    "job_title": "Graphic Designer",
+    "company_name": "123 Designs",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$40 - $50 per hour",
+    "job_description": "We are looking for a skilled and creative graphic designer to join our team and help us create stunning visual designs.",
+    "job_responsibility": "Responsibilities include creating designs for print and digital media, working with clients to understand their needs and preferences, and managing multiple projects at once.",
+    "educational_requirements": "Associate's or bachelor's degree in graphic design or related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contact_information": {
+      "phone": "555-555-1212",
+      "email": "jobs@123designs.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://example.com/company4-logo.png",
+    "job_title": "Software Developer",
+    "company_name": "Tech Solutions",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $130,000",
+    "job_description": "We are seeking a talented software developer to join our team and work on exciting new projects.",
+    "job_responsibility": "Responsibilities include developing and maintaining software applications, collaborating with team members on project requirements, and participating in code reviews and testing.",
+    "educational_requirements": "Bachelor's degree in computer science or related field",
+    "experiences": "5+ years of experience in software development",
+    "contact_information": {
+      "phone": "555-555-1234",
+      "email": "jobs@techsolutions.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://example.com/company5-logo.png",
+    "job_title": "Data Analyst",
+    "company_name": "DataWorks",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a skilled data analyst to help us analyze and interpret complex data sets.",
+    "job_responsibility": "Responsibilities include collecting and analyzing data, creating data visualizations and reports, and working with other team members to understand and interpret data.",
+    "educational_requirements": "Bachelor's degree in statistics, computer science, or related field",
+    "experiences": "3+ years of experience in data analysis",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "jobs@dataworks.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://example.com/company6-logo.png",
+    "job_title": "Social Media Manager",
+    "company_name": "SocialSpark",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$25 - $40 per hour",
+    "job_description": "We are looking for a creative and experienced social media manager to help us develop and execute social media strategies.",
+    "job_responsibility": "Responsibilities include managing social media accounts, creating and scheduling content, and analyzing metrics to measure success.",
+    "educational_requirements": "Associate's or bachelor's degree in marketing, communications, or related field",
+    "experiences": "2+ years of experience in social media management",
+    "contact_information": {
+      "phone": "555-123-4567",
+      "email": "jobs@socialspark.com"
+    }
+  }
+]
