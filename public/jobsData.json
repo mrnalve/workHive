@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "01",
     "company_logo": "https://i.ibb.co/8DtcyLD/google-1.png",
     "job_title": "Software Engineer",
     "company_name": "Google",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "id": 2,
+    "id": "02",
     "company_logo": "https://i.ibb.co/Jc6cpkT/microsoft.png",
     "job_title": "Marketing Manager",
     "company_name": "Microsoft",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "id": 3,
+    "id": "03",
     "company_logo": "https://i.ibb.co/nq2J7mC/netflix-1.png",
     "job_title": "Web Designer",
     "company_name": "Netflix",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "id": 4,
+    "id": "04",
     "company_logo": "https://i.ibb.co/vBJJqc5/rune.png",
     "job_title": "Software Developer",
     "company_name": "Tesla",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "id": 5,
+    "id": "05",
     "company_logo": "https://i.ibb.co/Q9CpVfR/twitter.png",
     "job_title": "Data Analyst",
     "company_name": "Twitter",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "id": 6,
+    "id": "06",
     "company_logo": "https://i.ibb.co/1ZZQYxK/apple-logo.png",
     "job_title": "3D Maker",
     "company_name": "Apple",

@@ -1,0 +1,18 @@
+{
+    "id": "04",
+    "company_logo": "https://i.ibb.co/vBJJqc5/rune.png",
+    "job_title": "Software Developer",
+    "company_name": "Tesla",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $130,000",
+    "job_description": "We are seeking a talented software developer to join our team and work on exciting new projects.",
+    "job_responsibility": "Responsibilities include developing and maintaining software applications, collaborating with team members on project requirements, and participating in code reviews and testing.",
+    "educational_requirements": "Bachelor's degree in computer science or related field",
+    "experiences": "5+ years of experience in software development",
+    "contact_information": {
+      "phone": "555-555-1234",
+      "email": "jobs@techsolutions.com"
+    }
+  }

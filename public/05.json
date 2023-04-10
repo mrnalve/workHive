@@ -1,0 +1,18 @@
+{
+    "id": "05",
+    "company_logo": "https://i.ibb.co/Q9CpVfR/twitter.png",
+    "job_title": "Data Analyst",
+    "company_name": "Twitter",
+    "remote_or_onsite": "Remote",
+    "location": "Sydney, Australia",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a skilled data analyst to help us analyze and interpret complex data sets.",
+    "job_responsibility": "Responsibilities include collecting and analyzing data, creating data visualizations and reports, and working with other team members to understand and interpret data.",
+    "educational_requirements": "Bachelor's degree in statistics, computer science, or related field",
+    "experiences": "3+ years of experience in data analysis",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "jobs@dataworks.com"
+    }
+  }

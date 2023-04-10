@@ -1,0 +1,18 @@
+{
+    "id": "02",
+    "company_logo": "https://i.ibb.co/Jc6cpkT/microsoft.png",
+    "job_title": "Marketing Manager",
+    "company_name": "Microsoft",
+    "remote_or_onsite": "Onsite",
+    "location": "London, UK",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We are seeking a talented and experienced marketing manager to help us grow our business.",
+    "job_responsibility": "Responsibilities include developing and executing marketing campaigns, analyzing data to measure success, and managing a team of marketing professionals.",
+    "educational_requirements": "Bachelor's degree in marketing, business, or related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact_information": {
+      "phone": "555-987-6543",
+      "email": "jobs@xyzcorp.com"
+    }
+  }

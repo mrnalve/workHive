@@ -1,0 +1,18 @@
+{
+    "id": "01",
+    "company_logo": "https://i.ibb.co/8DtcyLD/google-1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Google",
+    "remote_or_onsite": "Remote",
+    "location": "New York, NY",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are looking for a software engineer to join our team and help us build world-class software products.",
+    "job_responsibility": "Responsibilities include developing software, testing and debugging, and working with other team members to ensure the success of the project.",
+    "educational_requirements": "Bachelor's degree in computer science or related field",
+    "experiences": "3+ years of experience in software engineering",
+    "contact_information": {
+      "phone": "555-123-4567",
+      "email": "jobs@abccompany.com"
+    }
+  }
