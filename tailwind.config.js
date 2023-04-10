@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'button-color': '#7E90FE',
+        'text-color': '#7E90FE',
+        'dark-01': '#1A1919',
+        'dark-03': '#757575',
       },
     },
   },
