@@ -10,7 +10,7 @@ const FeaturedJobs = () => {
             <p className='text-dark-03 font-medium text-[16px] text-center my-6'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center'>
                 {
-                    jobsData && jobsData.map(jobData => <JobData jobData={jobData}></JobData>)
+                    jobsData && jobsData.map(jobData => <JobData jobData={jobData} key={jobData.id}></JobData>)
                 }
             </div>
         </div>

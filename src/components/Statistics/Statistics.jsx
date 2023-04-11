@@ -1,6 +1,5 @@
 import React from 'react';
-import { PureComponent } from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const Statistics = () => {
     const assignmentMark = [
@@ -34,7 +33,7 @@ const Statistics = () => {
                 height={400}
                 data={assignmentMark}
                 margin={{
-                    top: 30,
+                    top: 50,
                     right: 30,
                     left: 50,
                     bottom: 0,
@@ -46,7 +45,7 @@ const Statistics = () => {
                 <Tooltip />
                 <defs>
                     <linearGradient id="splitColor" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset={off} stopColor="green" stopOpacity={1} />
+                        <stop offset={off} stopColor="purple" stopOpacity={1} />
                         <stop offset={off} stopColor="red" stopOpacity={1} />
                     </linearGradient>
                 </defs>

@@ -1,10 +1,27 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { appliedContext } from "../../App";
 import AppliedJobsData from "../AppliedJobsData/AppliedJobsData";
 
 const AppliedJobs = () => {
   const [appliedData, setAppliedData] = useContext(appliedContext);
-  console.log(appliedData);
+  const [selectedOption, setSelectedOption] = useState("allJobs");
+  // handle filter options
+  const handleOptionChange = (e) => {
+    setSelectedOption(e.target.value);
+  };
+  // state declare for check job is remote or onsite
+  const [appliedJobsData, setAppliedJobsData] = useState(appliedData)
+  useEffect(() => {
+    if (selectedOption !== "allJobs") {
+      const filteredJobs = appliedData.filter(
+        (job) => job.remote_or_onsite === selectedOption
+      );
+      setAppliedJobsData(filteredJobs);
+    } else {
+      setAppliedJobsData(appliedData);
+    }
+  }, [appliedData, selectedOption]);
+  
   return (
     <div>
       <div className="h-[250px] bg-custom-color flex items-center justify-center relative mb-10">
@@ -22,7 +39,20 @@ const AppliedJobs = () => {
           border="0"
         ></img>
       </div>
-      {appliedData.map((appliedJobs) => (
+      <div className="flex justify-end max-w-[1120px] mx-auto">
+      <select
+        className="px-1 rounded-lg py-2 outline-none bg-slate-100 text-xl"
+        name="cars"
+        id="select"
+        onChange={handleOptionChange}
+        value={selectedOption}
+      >
+        <option value="allJobs">-Filter By-</option>
+        <option className="countryOption" value="Onsite">Onsite</option>
+        <option className="countryOption" value="Remote">Remote</option>
+      </select>
+    </div>
+      {appliedJobsData.map((appliedJobs) => (
         <AppliedJobsData
           appliedJobs={appliedJobs}
           key={appliedJobs.id}
