@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { appliedContext } from "../../App";
 import { addToDb } from "../../utilities/fakeDB";
+import { toast } from "react-hot-toast";
 
 const JobDetail = () => {
   const { id } = useParams();
@@ -39,8 +40,10 @@ const JobDetail = () => {
     let newAppliedJobData = [];
     const exist = appliedData.find((jobData) => jobData.id == jobsData.id);
     if (!exist) {
+      toast.success('Applied Successfully')
       newAppliedJobData = [...appliedData, jobsData];
     } else {
+      toast.error('Already Applied!')
       const rest = appliedData.filter(
         (existingJobData) => existingJobData.id !== jobsData.id
       );

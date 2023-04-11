@@ -41,7 +41,7 @@ const AppliedJobsData = ({ appliedJobs }) => {
           </div>
         </div>
         <div className="ms-auto">
-          <Link to={`/job/${id}`}>
+          <Link to={`/${id}`}>
             {" "}
             <button className="applied-button m-0 mt-6">View Details</button>
           </Link>

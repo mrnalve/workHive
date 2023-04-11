@@ -18,7 +18,7 @@ const JobData = ({jobData}) => {
                 <p className='text-dark-03 font-semibold text-[16px mr-5'><FontAwesomeIcon className='mr-2' icon={faLocationDot} />{location}</p>
                 <p className='text-dark-03 font-semibold text-[16px]'><FontAwesomeIcon icon={faDollar} /> Salary:- {salary}</p>
             </div>
-            <Link to={`/job/${id}`}> <button className='applied-button m-0 mt-6'>View Details</button></Link>
+            <Link to={`/${id}`}> <button className='applied-button m-0 mt-6'>View Details</button></Link>
         </div>
     );
 };

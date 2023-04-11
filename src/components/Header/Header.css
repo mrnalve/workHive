@@ -21,6 +21,10 @@
     text-decoration: none;
   }
 
+  nav .active{
+    color: #5d92d3;
+    font-weight: bold;
+  }
 @media (max-width: 576px) {
     .applied-button{
         padding: 10px 25px;

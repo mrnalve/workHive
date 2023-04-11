@@ -13,6 +13,7 @@ import { jobsData } from './utilities/getJobsData';
 import JobDetail from './components/JobDetail/JobDetail';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Statistics from './components/Statistics/Statistics';
+import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path:'/job/:id',
+        path:'/:id',
         element: <JobDetail></JobDetail>,
         loader: jobsData
       },
@@ -48,5 +49,8 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />,
+  <>
+  <Toaster></Toaster>
+  <RouterProvider router={router} />
+  </>
 )
