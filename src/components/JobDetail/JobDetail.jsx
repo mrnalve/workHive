@@ -16,10 +16,12 @@ const JobDetail = () => {
   const { id } = useParams();
   const AllJobsData = useLoaderData();
   const [jobsData, setJobsData] = useState({});
-  useEffect(()=>{
-    const singleJobData = AllJobsData?.find(singleJobData => singleJobData.id == id)
-    setJobsData(singleJobData)
-  },[id])
+  useEffect(() => {
+    const singleJobData = AllJobsData?.find(
+      (singleJobData) => singleJobData.id == id
+    );
+    setJobsData(singleJobData);
+  }, [id]);
   const {
     job_description,
     job_responsibility,
@@ -32,23 +34,37 @@ const JobDetail = () => {
   } = jobsData;
 
   // handle applied job button
-  const [appliedData, setAppliedData] = useContext(appliedContext)
-  const handleAppliedJobs =  (jobsData)=>{
-    let newAppliedJobData= []
-    const exist = appliedData.find(jobData => jobData.id == jobsData.id)
+  const [appliedData, setAppliedData] = useContext(appliedContext);
+  const handleAppliedJobs = (jobsData) => {
+    let newAppliedJobData = [];
+    const exist = appliedData.find((jobData) => jobData.id == jobsData.id);
     if (!exist) {
-      newAppliedJobData=[...appliedData, jobsData]
-    }else{
-      const rest = appliedData.filter(existingJobData => existingJobData.id !== jobsData.id)
-      newAppliedJobData = [...rest, exist]
+      newAppliedJobData = [...appliedData, jobsData];
+    } else {
+      const rest = appliedData.filter(
+        (existingJobData) => existingJobData.id !== jobsData.id
+      );
+      newAppliedJobData = [...rest, exist];
     }
-    setAppliedData(newAppliedJobData)
-    addToDb(jobsData)
-  }
+    setAppliedData(newAppliedJobData);
+    addToDb(jobsData);
+  };
   return (
     <div className="">
-      <div>
-        <h2>job detail banner: {jobsData.company_name}</h2>
+      <div className="h-[250px] bg-custom-color flex items-center justify-center relative">
+        <h2 className="text-dark-01 font-extrabold text-3xl">Job Details</h2>
+        <img
+        className="absolute top-0 right-0 w-64"
+          src="https://i.ibb.co/y8LkZNW/Vector-1.png"
+          alt="Vector-1"
+          border="0"
+        ></img>
+        <img
+        className="absolute bottom-0 left-0 w-64"
+          src="https://i.ibb.co/8MXGGPf/Vector-2.png"
+          alt="Vector-2"
+          border="0"
+        ></img>
       </div>
       <div className="flex flex-wrap lg:flex-nowrap w-[1100px] m-auto my-8 gap-10">
         {/* job content part starts */}
@@ -128,7 +144,7 @@ const JobDetail = () => {
               />
               Email:{" "}
               <span className="font-medium text-dark-03 inline">
-                {contact_information && contact_information.email }
+                {contact_information && contact_information.email}
               </span>
             </p>
             <p className="text-[16px] font-bold leading-7 text-dark-02 mt-4 my-1">
@@ -142,7 +158,12 @@ const JobDetail = () => {
               </span>
             </p>
           </div>
-          <button onClick={()=>handleAppliedJobs(jobsData)} className="applied-button w-full m-0 mt-5">Apply Now</button>
+          <button
+            onClick={() => handleAppliedJobs(jobsData)}
+            className="applied-button w-full m-0 mt-5"
+          >
+            Apply Now
+          </button>
         </div>
         {/* job details part ends */}
       </div>
