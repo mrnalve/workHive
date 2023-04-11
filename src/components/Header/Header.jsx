@@ -8,7 +8,7 @@ const Header = () => {
             <div className='text-3xl text-black font-extrabold'>WorkHive</div>
             <div>
                 <Link className='text-[16px] md:px-4 px-1 my-2 md:my-0 text-gray-400 leading-4 font-medium' to={'/'}>Home</Link>
-                <Link className='text-[16px] md:px-4 px-1 my-2 md:my-0 text-gray-400 leading-4 font-medium'>Statistics</Link>
+                <Link className='text-[16px] md:px-4 px-1 my-2 md:my-0 text-gray-400 leading-4 font-medium' to={'/statistics'}>Statistics</Link>
                 <Link className='text-[16px] md:px-4 px-1 my-2 md:my-0 text-gray-400 leading-4 font-medium' to={'/applied-jobs'}>Applied Jobs</Link>
                 <Link className='text-[16px] md:px-4 px-1 my-2 md:my-0 text-gray-400 leading-4 font-medium' to={'/blog'}>Blog</Link>
             </div>
